@@ -1,15 +1,6 @@
 {
- "cash": 741.003509357256,
- "open": {
-  "FDUktn5RyqhMqvXimZ8om9MGraFg5J6q92xEwoLFpump": {
-   "name": "h\u25e1shippo",
-   "entry": 0.0001113,
-   "t0": 1795196763.0423834,
-   "rs_left": 386.0,
-   "half_sold": false,
-   "realised": 0.0
-  }
- },
+ "cash": 908.8891643437789,
+ "open": {},
  "closed": [
   {
    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
@@ -40,6 +31,12 @@
    "name": "H4CK",
    "pnl": 29.4,
    "held_h": 1.1
+  },
+  {
+   "mint": "FDUktn5RyqhMqvXimZ8om9MGraFg5J6q92xEwoLFpump",
+   "name": "h\u25e1shippo",
+   "pnl": -232.1,
+   "held_h": 0.2
   }
  ],
  "last_summary_day": "2026-11-20"
