@@ -1,10 +1,18 @@
 {
- "cash": 1173.8100709118735,
+ "cash": 773.8100709118735,
  "open": {
   "Gt9qKqRKdDK2mSczG9WYgRqS8pZkCw47ZW71iW34pump": {
    "name": "SNAPMATIC ",
    "entry": 5.275e-05,
    "t0": 1795180142.221515,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  },
+  "J5zXjgnbwxnWSuT13aE5sRmGnbyoNafWHR52SDB9pump": {
+   "name": "H4CK",
+   "entry": 5.544e-05,
+   "t0": 1795192212.7305014,
    "rs_left": 386.0,
    "half_sold": false,
    "realised": 0.0
