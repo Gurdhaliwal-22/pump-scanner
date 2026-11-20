@@ -1,5 +1,5 @@
 {
- "cash": 908.8891643437789,
+ "cash": 671.966739343779,
  "open": {},
  "closed": [
   {
@@ -37,6 +37,12 @@
    "name": "h\u25e1shippo",
    "pnl": -232.1,
    "held_h": 0.2
+  },
+  {
+   "mint": "FBKkoVcXaHzpLHheCRnPk3zvLgiqhugbwGcegc9Ykvxx",
+   "name": "Singularity",
+   "pnl": -236.9,
+   "held_h": 0.1
   }
  ],
  "last_summary_day": "2026-11-20"
