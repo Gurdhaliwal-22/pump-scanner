@@ -1,5 +1,5 @@
 {
- "cash": 671.966739343779,
+ "cash": 460.664727715872,
  "open": {},
  "closed": [
   {
@@ -42,6 +42,12 @@
    "mint": "FBKkoVcXaHzpLHheCRnPk3zvLgiqhugbwGcegc9Ykvxx",
    "name": "Singularity",
    "pnl": -236.9,
+   "held_h": 0.1
+  },
+  {
+   "mint": "FqjZnuzRv3QYQQQrRRxt6fAGtrnaXnPXFabExM7Ppump",
+   "name": "FIENA",
+   "pnl": -211.3,
    "held_h": 0.1
   }
  ],
