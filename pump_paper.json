@@ -1,5 +1,5 @@
 {
- "cash": 1402.9510397700049,
+ "cash": 1173.8100709118735,
  "open": {
   "Gt9qKqRKdDK2mSczG9WYgRqS8pZkCw47ZW71iW34pump": {
    "name": "SNAPMATIC ",
@@ -16,6 +16,12 @@
    "name": "RUDY",
    "pnl": -197.0,
    "held_h": 1.5
+  },
+  {
+   "mint": "4hFU5ir5r9aimDdAZwFusXAEudNsyYG4Y2CHWJBppump",
+   "name": "Bobo",
+   "pnl": -229.1,
+   "held_h": 0.0
   }
  ],
  "last_summary_day": ""
