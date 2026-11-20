@@ -1,5 +1,5 @@
 {
- "cash": 773.8100709118735,
+ "cash": 497.43486506138595,
  "open": {
   "Gt9qKqRKdDK2mSczG9WYgRqS8pZkCw47ZW71iW34pump": {
    "name": "SNAPMATIC ",
@@ -30,6 +30,12 @@
    "name": "Bobo",
    "pnl": -229.1,
    "held_h": 0.0
+  },
+  {
+   "mint": "4ZbmGndQLrguTbdk5oz7wxxxVCnK2ZM9ShoMvML8pump",
+   "name": "MIA",
+   "pnl": -276.4,
+   "held_h": 0.1
   }
  ],
  "last_summary_day": "2026-11-20"
