@@ -1,16 +1,6 @@
 {
- "cash": 711.6478129286845,
- "open": {
-  "J5zXjgnbwxnWSuT13aE5sRmGnbyoNafWHR52SDB9pump": {
-   "name": "H4CK",
-   "entry": 5.544e-05,
-   "t0": 1795192212.7305014,
-   "rs_left": 193.0,
-   "half_sold": true,
-   "realised": 434.5892857142857,
-   "entry_after_half": 0.000129
-  }
- },
+ "cash": 1141.003509357256,
+ "open": {},
  "closed": [
   {
    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
@@ -35,6 +25,12 @@
    "name": "SNAPMATIC ",
    "pnl": -185.8,
    "held_h": 3.9
+  },
+  {
+   "mint": "J5zXjgnbwxnWSuT13aE5sRmGnbyoNafWHR52SDB9pump",
+   "name": "H4CK",
+   "pnl": 29.4,
+   "held_h": 1.1
   }
  ],
  "last_summary_day": "2026-11-20"
