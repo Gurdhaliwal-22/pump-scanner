@@ -198,6 +198,15 @@ def main():
     cfg = load_cfg(); seen = load_seen(); paper = load_paper()
     if "--once" in sys.argv:          # cloud mode (GitHub Actions): one pass, save, exit
         one_pass(cfg, seen, paper); return
+    if "--minutes" in sys.argv:       # cloud mode: scan every minute for N minutes, then exit
+        end = time.time() + 60 * float(sys.argv[sys.argv.index("--minutes") + 1])
+        while time.time() < end:
+            t0 = time.time()
+            try: one_pass(cfg, seen, paper)
+            except Exception as e: print(f"{ist_now():%H:%M}  error: {e}", flush=True)
+            if "--commit-every" in sys.argv: maybe_commit(int(sys.argv[sys.argv.index("--commit-every") + 1]))
+            time.sleep(max(5, 60 - (time.time() - t0)))
+        return
     print(f"Pump scanner chalu {ist_now():%H:%M}. Har minute check. Band karan layi window band kar.", flush=True)
     while True:
         try:
@@ -205,6 +214,21 @@ def main():
         except Exception as e:
             print(f"{ist_now():%H:%M}  error: {e}", flush=True)
         time.sleep(60)
+
+
+_passes = [0]
+def maybe_commit(every):
+    """Push state to the repo every `every` passes so nothing is lost if the job is killed."""
+    _passes[0] += 1
+    if _passes[0] % every: return
+    import subprocess
+    sh = lambda c: subprocess.run(c, shell=True, cwd=HERE, capture_output=True)
+    sh("git add pump_paper.json pump_seen.json")
+    if sh("git diff --cached --quiet").returncode == 0: return
+    sh(f'git commit -q -m "scan {ist_now():%H:%M} IST"')
+    for _ in range(3):
+        if sh("git pull --rebase -q").returncode == 0 and sh("git push -q").returncode == 0: break
+        time.sleep(5)
 
 
 def ist_now():

@@ -1,7 +1,7 @@
 name: pump-scan
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 min (GitHub may delay a few minutes)
+    - cron: "*/30 * * * *"   # each run scans every minute for ~55 min; a late/queued run fills the gap
   workflow_dispatch: {}
 concurrency:
   group: pump-scan
@@ -11,13 +11,15 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 65
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install requests
-      - run: python pump_scanner.py --once
+      - run: |
+          git config user.name "pump-bot"; git config user.email "pump-bot@users.noreply.github.com"
+          python pump_scanner.py --minutes 55 --commit-every 10
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
