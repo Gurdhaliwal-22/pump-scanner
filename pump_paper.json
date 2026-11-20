@@ -1,0 +1,23 @@
+{
+ "cash": 1200.0,
+ "open": {
+  "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": {
+   "name": "RUDY",
+   "entry": 0.0002087,
+   "t0": 1795180141.918948,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  },
+  "Gt9qKqRKdDK2mSczG9WYgRqS8pZkCw47ZW71iW34pump": {
+   "name": "SNAPMATIC ",
+   "entry": 5.275e-05,
+   "t0": 1795180142.221515,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  }
+ },
+ "closed": [],
+ "last_summary_day": ""
+}
