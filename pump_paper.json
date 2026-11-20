@@ -1,6 +1,15 @@
 {
- "cash": 1141.003509357256,
- "open": {},
+ "cash": 741.003509357256,
+ "open": {
+  "FDUktn5RyqhMqvXimZ8om9MGraFg5J6q92xEwoLFpump": {
+   "name": "h\u25e1shippo",
+   "entry": 0.0001113,
+   "t0": 1795196763.0423834,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  }
+ },
  "closed": [
   {
    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
