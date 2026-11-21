@@ -1,3 +1,84 @@
 {
- "days": {}
+ "days": {
+  "2026-11-21": {
+   "BTC_FUT": {
+    "pnl": -1103.7,
+    "weights": {
+     "ORB": 0.33,
+     "TREND": 0.33,
+     "REVERT": 0.33
+    },
+    "by_strat": {
+     "ORB": -1902.5,
+     "TREND": -296.9,
+     "REVERT": -1111.8
+    },
+    "trades": {
+     "ORB": [
+      "BTC-USD SHORT 09:30@5.609e+04 -> 12:35@5.816e+04 (stop) Rs -1902"
+     ],
+     "TREND": [
+      "BTC-USD SHORT 10:25@5.622e+04 -> 10:30@5.633e+04 (twap) Rs -159",
+      "BTC-USD SHORT 10:40@5.626e+04 -> 12:00@5.635e+04 (twap) Rs -138"
+     ],
+     "REVERT": [
+      "BTC-USD SHORT 12:05@5.654e+04 -> 12:10@5.703e+04 (stop) Rs -500",
+      "BTC-USD SHORT 12:15@5.755e+04 -> 12:35@5.819e+04 (stop) Rs -611"
+     ]
+    }
+   },
+   "ETH_FUT": {
+    "pnl": -1053.1,
+    "weights": {
+     "ORB": 0.33,
+     "TREND": 0.33,
+     "REVERT": 0.33
+    },
+    "by_strat": {
+     "ORB": -2112.4,
+     "TREND": -571.6,
+     "REVERT": -475.4
+    },
+    "trades": {
+     "ORB": [
+      "ETH-USD SHORT 09:35@1542 -> 12:10@1605 (stop) Rs -2112"
+     ],
+     "TREND": [
+      "ETH-USD LONG 09:25@1569 -> 09:30@1559 (twap) Rs -388",
+      "ETH-USD LONG 11:15@1564 -> 11:20@1560 (twap) Rs -183"
+     ],
+     "REVERT": [
+      "ETH-USD SHORT 12:05@1582 -> 12:10@1597 (stop) Rs -526",
+      "ETH-USD SHORT 12:15@1636 -> 12:45@1632 (time) Rs +50"
+     ]
+    }
+   },
+   "BTC_OPT": {
+    "pnl": -8330.4,
+    "weights": {
+     "ORB": 0.33,
+     "TREND": 0.33,
+     "REVERT": 0.33
+    },
+    "by_strat": {
+     "ORB": -10000.0,
+     "TREND": -4991.1,
+     "REVERT": -10000.0
+    },
+    "trades": {
+     "ORB": [
+      "BTC-USD SHORT 09:30@5.609e+04 -> 12:35@5.816e+04 (stop) Rs -10000"
+     ],
+     "TREND": [
+      "BTC-USD SHORT 10:25@5.622e+04 -> 10:30@5.633e+04 (twap) Rs -2690",
+      "BTC-USD SHORT 10:40@5.626e+04 -> 12:00@5.635e+04 (twap) Rs -2301"
+     ],
+     "REVERT": [
+      "BTC-USD SHORT 12:05@5.654e+04 -> 12:10@5.703e+04 (stop) Rs -7301",
+      "BTC-USD SHORT 12:15@5.755e+04 -> 12:35@5.819e+04 (stop) Rs -8431"
+     ]
+    }
+   }
+  }
+ }
 }
