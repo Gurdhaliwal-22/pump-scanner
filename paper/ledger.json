@@ -79,6 +79,86 @@
      ]
     }
    }
+  },
+  "2026-11-22": {
+   "BTC_FUT": {
+    "pnl": -233.3,
+    "weights": {
+     "ORB": 0.26,
+     "TREND": 0.42,
+     "REVERT": 0.33
+    },
+    "by_strat": {
+     "ORB": -282.9,
+     "TREND": -332.1,
+     "REVERT": -67.9
+    },
+    "trades": {
+     "ORB": [
+      "BTC-USD SHORT 09:15@5.901e+04 -> 09:25@5.927e+04 (stop) Rs -283"
+     ],
+     "TREND": [
+      "BTC-USD LONG 09:20@5.918e+04 -> 09:50@5.907e+04 (twap) Rs -151",
+      "BTC-USD LONG 10:00@5.932e+04 -> 10:10@5.917e+04 (twap) Rs -181"
+     ],
+     "REVERT": [
+      "BTC-USD SHORT 09:30@5.944e+04 -> 09:50@5.921e+04 (target) Rs +131",
+      "BTC-USD LONG 10:40@5.885e+04 -> 11:10@5.868e+04 (time) Rs -199"
+     ]
+    }
+   },
+   "ETH_FUT": {
+    "pnl": -270.2,
+    "weights": {
+     "ORB": 0.24,
+     "TREND": 0.38,
+     "REVERT": 0.39
+    },
+    "by_strat": {
+     "ORB": -352.2,
+     "TREND": -223.2,
+     "REVERT": -265.7
+    },
+    "trades": {
+     "ORB": [
+      "ETH-USD SHORT 09:15@1651 -> 09:30@1661 (stop) Rs -352"
+     ],
+     "TREND": [
+      "ETH-USD LONG 09:55@1658 -> 10:30@1657 (twap) Rs -87",
+      "ETH-USD LONG 11:45@1657 -> 11:50@1655 (twap) Rs -137"
+     ],
+     "REVERT": [
+      "ETH-USD LONG 10:45@1648 -> 11:15@1649 (time) Rs -23",
+      "ETH-USD SHORT 13:40@1674 -> 13:50@1680 (stop) Rs -243"
+     ]
+    }
+   },
+   "BTC_OPT": {
+    "pnl": -1669.6,
+    "weights": {
+     "ORB": 0.15,
+     "TREND": 0.69,
+     "REVERT": 0.15
+    },
+    "by_strat": {
+     "ORB": -3890.4,
+     "TREND": -4939.2,
+     "REVERT": -731.9
+    },
+    "trades": {
+     "ORB": [
+      "BTC-USD SHORT 09:15@5.901e+04 -> 09:25@5.927e+04 (stop) Rs -3890"
+     ],
+     "TREND": [
+      "BTC-USD LONG 09:20@5.918e+04 -> 09:50@5.907e+04 (twap) Rs -2022",
+      "BTC-USD LONG 10:00@5.932e+04 -> 10:10@5.917e+04 (twap) Rs -2917"
+     ],
+     "REVERT": [
+      "BTC-USD SHORT 09:30@5.944e+04 -> 09:50@5.921e+04 (target) Rs +2862",
+      "BTC-USD LONG 10:40@5.885e+04 -> 11:10@5.868e+04 (time) Rs -3593"
+     ]
+    }
+   }
   }
  }
 }
