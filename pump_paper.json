@@ -1,15 +1,6 @@
 {
- "cash": 1087.1695305312141,
- "open": {
-  "Dqotg1vothycy7Xa3Q2GEfFRzuzsp41jTw91dxjNwSEz": {
-   "name": "BONER",
-   "entry": 8.549e-05,
-   "t0": 1795444219.70385,
-   "rs_left": 386.0,
-   "half_sold": false,
-   "realised": 0.0
-  }
- },
+ "cash": 1218.1532198516024,
+ "open": {},
  "closed": [
   {
    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
@@ -77,6 +68,13 @@
    "name": "HOLD",
    "pnl": -251.7,
    "held_h": 1.7,
+   "day": "2026-11-23"
+  },
+  {
+   "mint": "Dqotg1vothycy7Xa3Q2GEfFRzuzsp41jTw91dxjNwSEz",
+   "name": "BONER",
+   "pnl": -269.0,
+   "held_h": 0.4,
    "day": "2026-11-23"
   }
  ],
