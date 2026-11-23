@@ -1,6 +1,15 @@
 {
- "cash": 1487.1695305312141,
- "open": {},
+ "cash": 1087.1695305312141,
+ "open": {
+  "Dqotg1vothycy7Xa3Q2GEfFRzuzsp41jTw91dxjNwSEz": {
+   "name": "BONER",
+   "entry": 8.549e-05,
+   "t0": 1795444219.70385,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  }
+ },
  "closed": [
   {
    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
