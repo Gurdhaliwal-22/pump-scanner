@@ -1,6 +1,15 @@
 {
- "cash": 1738.8401834862384,
- "open": {},
+ "cash": 1338.8401834862384,
+ "open": {
+  "9AiHB952pXVrHuct9m3RKWoWv4LG52p58FYjMvUkpump": {
+   "name": "HOLD",
+   "entry": 8.071e-05,
+   "t0": 1795428015.8645039,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  }
+ },
  "closed": [
   {
    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
