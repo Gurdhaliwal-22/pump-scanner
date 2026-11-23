@@ -93,6 +93,14 @@ class TestPaper(unittest.TestCase):
         pp = self.fresh(); ps.paper_open(pp, "A", "A", 1.0, 0); ps.paper_step(pp, "A", 0.0001, 60)
         self.assertLess(pp["closed"][0]["pnl"], -390)
 
+    def test_new_day_tops_up_to_2000(self):
+        pp = self.fresh(); pp["cash"] = 140.0
+        self.assertTrue(ps.paper_new_day(pp, "2026-11-23"))
+        self.assertAlmostEqual(pp["cash"], 2000.0); self.assertAlmostEqual(pp["added"], 1860.0)
+        self.assertFalse(ps.paper_new_day(pp, "2026-11-23"))      # same day: nothing
+        pp["cash"] = 2500.0; ps.paper_new_day(pp, "2026-11-24")    # winning: no top-up
+        self.assertAlmostEqual(pp["cash"], 2500.0); self.assertAlmostEqual(pp["added"], 1860.0)
+
     def test_missing_price_does_nothing(self):
         pp = self.fresh(); ps.paper_open(pp, "A", "A", 1.0, 0); ps.paper_step(pp, "A", None, 60)
         self.assertIn("A", pp["open"])

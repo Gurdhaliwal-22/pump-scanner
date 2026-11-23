@@ -236,6 +236,7 @@ def ist_now():
 
 
 def one_pass(cfg, seen, paper):
+    paper_new_day(paper, ist_now().strftime("%Y-%m-%d"))
     n, found = scan_once(cfg, seen, paper); save_seen(seen)
     prices = paper_tick(paper); save_paper(paper)
     line = paper_summary(paper, prices)
@@ -255,6 +256,8 @@ def one_pass(cfg, seen, paper):
 # Each alert = Rs 400 "bought" at the alert price (max 5 open, like a real Rs 2,000 pot).
 # Every minute: price >= 2x entry -> sell half (once); price <= 0.6x entry -> sell the rest;
 # after 24 h -> sell the rest at market. 1% fee each side + Rs 10 network per trade.
+# ROZ Rs 2,000: every new IST day, cash is topped back up to Rs 2,000 ("added" keeps the honest
+# total of extra paper money put in, so overall P&L = value - 2000 - added).
 # Results in pump_paper.json; a summary line prints every minute and goes to Telegram once a day.
 # ---------------------------------------------------------------------------
 PAPER = os.path.join(HERE, "pump_paper.json")
@@ -299,9 +302,20 @@ def paper_step(pp, mint, price, now):
     if done:
         sell(1.0)
         pp["cash"] += p["realised"]
+        day = (datetime.fromtimestamp(now, timezone.utc).replace(tzinfo=None) + timedelta(hours=5, minutes=30)).strftime("%Y-%m-%d")
         pp["closed"].append({"mint": mint, "name": p["name"], "pnl": round(p["realised"] - STAKE, 1),
-                             "held_h": round((now - p["t0"]) / 3600, 1)})
+                             "held_h": round((now - p["t0"]) / 3600, 1), "day": day})
         del pp["open"][mint]
+
+
+def paper_new_day(pp, today):
+    """Once per IST day: top cash back up to Rs 2,000. Pure (unit-tested)."""
+    if pp.get("day") == today: return False
+    pp["day"] = today
+    if pp["cash"] < 2000.0:
+        pp["added"] = pp.get("added", 0.0) + (2000.0 - pp["cash"])
+        pp["cash"] = 2000.0
+    return True
 
 
 def paper_value(pp, prices):
@@ -324,7 +338,10 @@ def paper_tick(pp):
 def paper_summary(pp, prices):
     v = paper_value(pp, prices); c = pp["closed"]
     wins = sum(1 for t in c if t["pnl"] > 0)
-    return (f"PAPER Rs 2,000 -> Rs {v:,.0f} ({v - 2000:+,.0f}) | band trades {len(c)}, jitte {wins} | khulle {len(pp['open'])}")
+    put_in = 2000.0 + pp.get("added", 0.0)
+    td = [t for t in c if t.get("day") == pp.get("day")]
+    return (f"PAPER roz Rs 2,000 | aaj band {len(td)}, jitte {sum(t['pnl'] > 0 for t in td)}, Rs {sum(t['pnl'] for t in td):+,.0f}"
+            f" | kul paya Rs {put_in:,.0f} -> Rs {v:,.0f} ({v - put_in:+,.0f}) | band {len(c)}, jitte {wins} | khulle {len(pp['open'])}")
 
 
 if __name__ == "__main__":
