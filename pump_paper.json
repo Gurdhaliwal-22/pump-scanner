@@ -1,5 +1,5 @@
 {
- "cash": 217.23853987625594,
+ "cash": 1600.0,
  "open": {
   "6oM2khHX4JJsnzBHBkQibewrbdcgQoEx1kFjEjJ9pump": {
    "name": "JENSEN",
@@ -9,6 +9,14 @@
    "half_sold": true,
    "realised": 373.14202318520563,
    "entry_after_half": 0.0001453
+  },
+  "GHWEB3FsfqDbNBt9QxVU7kXkUh1cX7kFk5NVDkgApump": {
+   "name": "SCINU",
+   "entry": 8.247e-05,
+   "t0": 1795458722.5532463,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
   }
  },
  "closed": [
@@ -103,6 +111,6 @@
   }
  ],
  "last_summary_day": "2026-11-23",
- "day": "2026-11-23",
- "added": 1860.1626344519236
+ "day": "2026-11-24",
+ "added": 3642.9240945756674
 }
