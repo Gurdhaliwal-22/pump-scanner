@@ -1,15 +1,6 @@
 {
- "cash": 1600.0,
- "open": {
-  "Cz1bmoA8PW2p8iS5ugxYzhAM1QQg6bRyNp6CmrKui2hL": {
-   "name": "Milo",
-   "entry": 7.194e-05,
-   "t0": 1795415684.182468,
-   "rs_left": 386.0,
-   "half_sold": false,
-   "realised": 0.0
-  }
- },
+ "cash": 1738.8401834862384,
+ "open": {},
  "closed": [
   {
    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
@@ -64,6 +55,13 @@
    "name": "DCTY",
    "pnl": -320.8,
    "held_h": 1.0
+  },
+  {
+   "mint": "Cz1bmoA8PW2p8iS5ugxYzhAM1QQg6bRyNp6CmrKui2hL",
+   "name": "Milo",
+   "pnl": -261.2,
+   "held_h": 0.3,
+   "day": "2026-11-23"
   }
  ],
  "last_summary_day": "2026-11-22",
