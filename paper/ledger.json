@@ -159,6 +159,209 @@
      ]
     }
    }
+  },
+  "2026-11-23": {
+   "NIFTY_FUT": {
+    "pnl": 94.6,
+    "weights": {
+     "ORB": 0.33,
+     "TREND": 0.33,
+     "REVERT": 0.33
+    },
+    "by_strat": {
+     "ORB": 614.8,
+     "TREND": 0.0,
+     "REVERT": -331.0
+    },
+    "trades": {
+     "ORB": [
+      "^NSEI SHORT 09:30@2.557e+04 -> 15:15@2.537e+04 (close) Rs +615"
+     ],
+     "REVERT": [
+      "^NSEI LONG 10:45@2.559e+04 -> 11:00@2.552e+04 (stop) Rs -259",
+      "^NSEI LONG 11:50@2.552e+04 -> 12:20@2.551e+04 (time) Rs -72"
+     ]
+    }
+   },
+   "NIFTY_OPT": {
+    "pnl": 1692.1,
+    "weights": {
+     "ORB": 0.33,
+     "TREND": 0.33,
+     "REVERT": 0.33
+    },
+    "by_strat": {
+     "ORB": 8903.6,
+     "TREND": 0.0,
+     "REVERT": -3827.3
+    },
+    "trades": {
+     "ORB": [
+      "^NSEI SHORT 09:30@2.557e+04 -> 15:15@2.537e+04 (close) Rs +8904"
+     ],
+     "REVERT": [
+      "^NSEI LONG 10:45@2.559e+04 -> 11:00@2.552e+04 (stop) Rs -2946",
+      "^NSEI LONG 11:50@2.552e+04 -> 12:20@2.551e+04 (time) Rs -882"
+     ]
+    }
+   },
+   "SENSEX_OPT": {
+    "pnl": 1063.7,
+    "weights": {
+     "ORB": 0.33,
+     "TREND": 0.33,
+     "REVERT": 0.33
+    },
+    "by_strat": {
+     "ORB": 6106.9,
+     "TREND": 0.0,
+     "REVERT": -2915.8
+    },
+    "trades": {
+     "ORB": [
+      "^BSESN SHORT 09:30@8.324e+04 -> 15:15@8.245e+04 (close) Rs +6107"
+     ],
+     "REVERT": [
+      "^BSESN LONG 10:45@8.325e+04 -> 11:00@8.301e+04 (stop) Rs -1874",
+      "^BSESN LONG 11:45@8.307e+04 -> 12:15@8.297e+04 (time) Rs -1041"
+     ]
+    }
+   },
+   "STOCKS_MIS": {
+    "pnl": 167.6,
+    "weights": {
+     "ORB": 0.33,
+     "TREND": 0.33,
+     "REVERT": 0.33
+    },
+    "by_strat": {
+     "ORB": 422.4,
+     "TREND": 142.7,
+     "REVERT": -62.4
+    },
+    "trades": {
+     "ORB": [
+      "RELIANCE SHORT 09:30@1369 -> 15:15@1353 (close) Rs +107",
+      "HDFCBANK SHORT 09:30@833.8 -> 15:15@816.6 (close) Rs +198",
+      "ICICIBANK SHORT 09:30@1611 -> 15:15@1588 (close) Rs +130",
+      "INFY LONG 09:45@1123 -> 12:00@1108 (stop) Rs -144",
+      "SBIN SHORT 09:30@1146 -> 15:15@1130 (close) Rs +131"
+     ],
+     "TREND": [
+      "ICICIBANK SHORT 11:15@1614 -> 11:20@1617 (twap) Rs -26",
+      "ICICIBANK SHORT 11:25@1615 -> 15:15@1588 (close) Rs +156",
+      "INFY LONG 09:35@1118 -> 10:45@1120 (twap) Rs +13"
+     ],
+     "REVERT": [
+      "RELIANCE LONG 10:00@1364 -> 10:30@1361 (time) Rs -30",
+      "RELIANCE LONG 10:55@1358 -> 11:25@1361 (time) Rs +19",
+      "HDFCBANK LONG 10:35@830.3 -> 11:05@829.2 (time) Rs -22",
+      "HDFCBANK LONG 11:50@826 -> 12:20@826.5 (time) Rs -3",
+      "ICICIBANK LONG 11:45@1607 -> 12:15@1608 (time) Rs -3",
+      "ICICIBANK LONG 12:50@1606 -> 13:05@1601 (stop) Rs -36",
+      "INFY SHORT 09:50@1124 -> 10:20@1127 (time) Rs -37",
+      "INFY LONG 10:55@1114 -> 11:25@1115 (time) Rs -4",
+      "SBIN LONG 11:00@1143 -> 11:10@1150 (target) Rs +55",
+      "SBIN LONG 11:50@1141 -> 12:20@1142 (time) Rs -2"
+     ]
+    }
+   },
+   "USDINR_FUT": {
+    "pnl": -178.1,
+    "weights": {
+     "ORB": 0.33,
+     "TREND": 0.33,
+     "REVERT": 0.33
+    },
+    "by_strat": {
+     "ORB": -264.4,
+     "TREND": 0.0,
+     "REVERT": -270.1
+    },
+    "trades": {
+     "ORB": [
+      "USDINR=X LONG 09:20@92.8 -> 16:45@92.73 (close) Rs -264"
+     ],
+     "REVERT": [
+      "USDINR=X SHORT 09:30@92.82 -> 10:00@92.88 (time) Rs -200",
+      "USDINR=X SHORT 12:50@92.88 -> 13:20@92.89 (time) Rs -70"
+     ]
+    }
+   },
+   "USDINR_OPT": {
+    "pnl": -1956.0,
+    "weights": {
+     "ORB": 0.33,
+     "TREND": 0.33,
+     "REVERT": 0.33
+    },
+    "by_strat": {
+     "ORB": -2767.6,
+     "TREND": 0.0,
+     "REVERT": -3100.3
+    },
+    "trades": {
+     "ORB": [
+      "USDINR=X LONG 09:20@92.8 -> 16:45@92.73 (close) Rs -2768"
+     ],
+     "REVERT": [
+      "USDINR=X SHORT 09:30@92.82 -> 10:00@92.88 (time) Rs -2286",
+      "USDINR=X SHORT 12:50@92.88 -> 13:20@92.89 (time) Rs -814"
+     ]
+    }
+   },
+   "BTC_FUT": {
+    "pnl": -314.1,
+    "weights": {
+     "ORB": 0.25,
+     "TREND": 0.4,
+     "REVERT": 0.34
+    },
+    "by_strat": {
+     "ORB": -423.2,
+     "TREND": -265.2,
+     "REVERT": -291.1
+    },
+    "trades": {
+     "ORB": [
+      "BTC-USD SHORT 09:15@6.115e+04 -> 11:10@6.16e+04 (stop) Rs -423"
+     ],
+     "TREND": [
+      "BTC-USD SHORT 09:55@6.122e+04 -> 10:30@6.121e+04 (twap) Rs -54",
+      "BTC-USD SHORT 10:35@6.109e+04 -> 10:45@6.128e+04 (twap) Rs -211"
+     ],
+     "REVERT": [
+      "BTC-USD SHORT 11:10@6.163e+04 -> 11:40@6.168e+04 (time) Rs -97",
+      "BTC-USD SHORT 14:35@6.151e+04 -> 14:45@6.167e+04 (stop) Rs -194"
+     ]
+    }
+   },
+   "ETH_FUT": {
+    "pnl": -279.2,
+    "weights": {
+     "ORB": 0.23,
+     "TREND": 0.38,
+     "REVERT": 0.39
+    },
+    "by_strat": {
+     "ORB": -489.6,
+     "TREND": -237.3,
+     "REVERT": -194.9
+    },
+    "trades": {
+     "ORB": [
+      "ETH-USD SHORT 10:00@1723 -> 19:25@1737 (stop) Rs -490"
+     ],
+     "TREND": [
+      "ETH-USD SHORT 09:55@1730 -> 10:50@1729 (twap) Rs -52",
+      "ETH-USD SHORT 11:00@1727 -> 11:05@1731 (twap) Rs -185"
+     ],
+     "REVERT": [
+      "ETH-USD LONG 11:50@1720 -> 12:20@1722 (time) Rs -6",
+      "ETH-USD LONG 13:15@1719 -> 13:45@1714 (stop) Rs -189"
+     ]
+    }
+   }
   }
  }
 }
