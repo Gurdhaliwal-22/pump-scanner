@@ -1,6 +1,15 @@
 {
- "cash": 1218.1532198516024,
- "open": {},
+ "cash": 818.1532198516024,
+ "open": {
+  "nNske7YBu4R29HcifzAmDqzgh3oetzqX3QAPSEQpump": {
+   "name": "JACKET",
+   "entry": 7.061e-05,
+   "t0": 1795446319.6907568,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  }
+ },
  "closed": [
   {
    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
