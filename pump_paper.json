@@ -1,15 +1,6 @@
 {
- "cash": 621.7298253469692,
+ "cash": 1085.588545346969,
  "open": {
-  "DrJjCnagFhVKNuc8Fe8HejkY4aZaaCqy7WivdwdVpump": {
-   "name": "JENSEN",
-   "entry": 0.0001375,
-   "t0": 1795470285.8845515,
-   "rs_left": 193.0,
-   "half_sold": true,
-   "realised": 374.78024000000005,
-   "entry_after_half": 0.0002769
-  },
   "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": {
    "name": "JIMMY",
    "entry": 0.0001752,
@@ -150,6 +141,13 @@
    "name": "ORBLUX",
    "pnl": -184.8,
    "held_h": 0.8,
+   "day": "2026-11-24"
+  },
+  {
+   "mint": "DrJjCnagFhVKNuc8Fe8HejkY4aZaaCqy7WivdwdVpump",
+   "name": "JENSEN",
+   "pnl": 63.9,
+   "held_h": 11.3,
    "day": "2026-11-24"
   }
  ],
