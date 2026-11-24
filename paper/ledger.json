@@ -362,6 +362,60 @@
      ]
     }
    }
+  },
+  "2026-11-24": {
+   "BTC_FUT": {
+    "pnl": 0.0,
+    "weights": {
+     "ORB": 0.0,
+     "TREND": 0.0,
+     "REVERT": 0.0
+    },
+    "by_strat": {
+     "ORB": -250.7,
+     "TREND": -309.2,
+     "REVERT": -20.4
+    },
+    "trades": {
+     "ORB": [
+      "BTC-USD LONG 09:40@6.033e+04 -> 13:55@6.01e+04 (stop) Rs -251"
+     ],
+     "TREND": [
+      "BTC-USD LONG 10:30@6.047e+04 -> 11:30@6.038e+04 (twap) Rs -130",
+      "BTC-USD LONG 11:45@6.047e+04 -> 11:50@6.033e+04 (twap) Rs -180"
+     ],
+     "REVERT": [
+      "BTC-USD SHORT 09:50@6.042e+04 -> 10:20@6.034e+04 (target) Rs +11",
+      "BTC-USD SHORT 10:55@6.058e+04 -> 11:25@6.055e+04 (time) Rs -32"
+     ]
+    }
+   },
+   "ETH_FUT": {
+    "pnl": 0.0,
+    "weights": {
+     "ORB": 0.0,
+     "TREND": 0.0,
+     "REVERT": 0.0
+    },
+    "by_strat": {
+     "ORB": -258.3,
+     "TREND": -27.9,
+     "REVERT": -112.9
+    },
+    "trades": {
+     "ORB": [
+      "ETH-USD LONG 09:25@1694 -> 14:30@1688 (stop) Rs -258"
+     ],
+     "TREND": [
+      "ETH-USD LONG 09:20@1692 -> 11:30@1699 (twap) Rs +142",
+      "ETH-USD LONG 11:45@1700 -> 11:50@1696 (twap) Rs -169"
+     ],
+     "REVERT": [
+      "ETH-USD SHORT 09:45@1698 -> 10:05@1704 (stop) Rs -245",
+      "ETH-USD SHORT 11:00@1706 -> 11:30@1700 (target) Rs +132"
+     ]
+    }
+   }
   }
  }
 }
