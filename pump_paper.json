@@ -1,5 +1,5 @@
 {
- "cash": 923.0794759010239,
+ "cash": 523.0794759010239,
  "open": {
   "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": {
    "name": "JIMMY",
@@ -9,6 +9,14 @@
    "half_sold": true,
    "realised": 379.44690068493145,
    "entry_after_half": 0.0003571
+  },
+  "DE6jZSwe422PWGWWU5hNCUrUmPDHHhF5aVXpjFbFpump": {
+   "name": "POORGOAT",
+   "entry": 6.392e-05,
+   "t0": 1795530686.977459,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
   }
  },
  "closed": [
