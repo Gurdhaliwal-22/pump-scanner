@@ -1,5 +1,5 @@
 {
- "cash": 3121.647940657106,
+ "cash": 3316.394815214158,
  "open": {
   "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump": {
    "name": "ChristmASS",
@@ -13,14 +13,6 @@
    "name": "WIKI",
    "entry": 0.0001798,
    "t0": 1795569256.5242138,
-   "rs_left": 386.0,
-   "half_sold": false,
-   "realised": 0.0
-  },
-  "4M1tpKSat8qWnJk6pskUBciw4PBvXt4gNMc36NV8pump": {
-   "name": "Pumpcar",
-   "entry": 5.644e-05,
-   "t0": 1795569257.0187302,
    "rs_left": 386.0,
    "half_sold": false,
    "realised": 0.0
@@ -205,6 +197,13 @@
    "name": "CHUCHU",
    "pnl": -232.0,
    "held_h": 8.5,
+   "day": "2026-11-25"
+  },
+  {
+   "mint": "4M1tpKSat8qWnJk6pskUBciw4PBvXt4gNMc36NV8pump",
+   "name": "Pumpcar",
+   "pnl": -205.3,
+   "held_h": 0.4,
    "day": "2026-11-25"
   }
  ],
