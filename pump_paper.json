@@ -1,10 +1,18 @@
 {
- "cash": 3486.3916817325116,
+ "cash": 2678.778738402245,
  "open": {
-  "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump": {
-   "name": "ChristmASS",
-   "entry": 0.0002174,
-   "t0": 1795569256.0208251,
+  "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": {
+   "name": "JaoJiu",
+   "entry": 0.0001915,
+   "t0": 1795601069.2270768,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  },
+  "96qfge1RkUWhSsv8i9V4QZFANGypKEe1u7pzCDGGpump": {
+   "name": "HELIORA",
+   "entry": 6.768e-05,
+   "t0": 1795601069.506083,
    "rs_left": 386.0,
    "half_sold": false,
    "realised": 0.0
@@ -203,6 +211,13 @@
    "name": "WIKI",
    "pnl": -230.0,
    "held_h": 0.5,
+   "day": "2026-11-25"
+  },
+  {
+   "mint": "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump",
+   "name": "ChristmASS",
+   "pnl": -407.6,
+   "held_h": 8.8,
    "day": "2026-11-25"
   }
  ],
