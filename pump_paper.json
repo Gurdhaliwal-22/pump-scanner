@@ -1,29 +1,14 @@
 {
- "cash": 708.2983405506176,
+ "cash": 852.2813375906734,
  "open": {
   "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": {
    "name": "PUMPCHAN",
    "entry": 0.001114,
    "t0": 1795661867.8077438,
-   "rs_left": 386.0,
-   "half_sold": false,
-   "realised": 0.0
-  },
-  "DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump": {
-   "name": "MONEY",
-   "entry": 0.0007558,
-   "t0": 1795661868.1852746,
-   "rs_left": 386.0,
-   "half_sold": false,
-   "realised": 0.0
-  },
-  "6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": {
-   "name": "Grodia",
-   "entry": 0.0007049,
-   "t0": 1795661868.547295,
-   "rs_left": 386.0,
-   "half_sold": false,
-   "realised": 0.0
+   "rs_left": 193.0,
+   "half_sold": true,
+   "realised": 1325.2602782764811,
+   "entry_after_half": 0.007785
   },
   "Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": {
    "name": "UHI",
@@ -269,6 +254,20 @@
    "name": "STUDS",
    "pnl": -218.1,
    "held_h": 0.1,
+   "day": "2026-11-26"
+  },
+  {
+   "mint": "DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump",
+   "name": "MONEY",
+   "pnl": -409.2,
+   "held_h": 9.0,
+   "day": "2026-11-26"
+  },
+  {
+   "mint": "6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump",
+   "name": "Grodia",
+   "pnl": -246.8,
+   "held_h": 9.0,
    "day": "2026-11-26"
   }
  ],
