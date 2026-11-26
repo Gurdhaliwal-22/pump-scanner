@@ -1,5 +1,5 @@
 {
- "cash": 1332.7556645629013,
+ "cash": 1123.774022050824,
  "open": {
   "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": {
    "name": "PUMPCHAN",
@@ -281,6 +281,13 @@
    "name": "PI",
    "pnl": -405.4,
    "held_h": 0.1,
+   "day": "2026-11-27"
+  },
+  {
+   "mint": "6Sm9SMP11iFuL7AqFCJeyQc23WF4s1ZGxS7JXveQJRW",
+   "name": "Goon",
+   "pnl": -209.0,
+   "held_h": 0.0,
    "day": "2026-11-27"
   }
  ],
