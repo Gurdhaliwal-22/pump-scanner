@@ -1,6 +1,39 @@
 {
- "cash": 2526.3764535953464,
- "open": {},
+ "cash": 708.2983405506176,
+ "open": {
+  "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": {
+   "name": "PUMPCHAN",
+   "entry": 0.001114,
+   "t0": 1795661867.8077438,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  },
+  "DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump": {
+   "name": "MONEY",
+   "entry": 0.0007558,
+   "t0": 1795661868.1852746,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  },
+  "6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": {
+   "name": "Grodia",
+   "entry": 0.0007049,
+   "t0": 1795661868.547295,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  },
+  "Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": {
+   "name": "UHI",
+   "entry": 0.00109,
+   "t0": 1795661868.9038076,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  }
+ },
  "closed": [
   {
    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
@@ -229,6 +262,13 @@
    "name": "CRIME",
    "pnl": -205.0,
    "held_h": 0.7,
+   "day": "2026-11-26"
+  },
+  {
+   "mint": "34J9VrBeJ2dWActyAMpoNBKvoxZCqQz3SivmnnmSTUds",
+   "name": "STUDS",
+   "pnl": -218.1,
+   "held_h": 0.1,
    "day": "2026-11-26"
   }
  ],
