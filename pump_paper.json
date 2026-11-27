@@ -1,6 +1,39 @@
 {
- "cash": 3833.609423041896,
- "open": {},
+ "cash": 2233.609423041896,
+ "open": {
+  "9SMvQzDmGMpACAqET5PAmwUtHfBYdQ5a7SPLfQa4pump": {
+   "name": "CI",
+   "entry": 0.0002253,
+   "t0": 1795817557.683268,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  },
+  "GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": {
+   "name": "MoonBoy",
+   "entry": 0.0003937,
+   "t0": 1795817558.0788577,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  },
+  "3WsqUNArNSh5pYt6eTKbQ7uUJDgkPtFEA2XFvdEWpump": {
+   "name": "ZERO",
+   "entry": 0.000755,
+   "t0": 1795817558.4541378,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  },
+  "7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump": {
+   "name": "WINTER",
+   "entry": 9.121e-05,
+   "t0": 1795817558.8405318,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  }
+ },
  "closed": [
   {
    "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
@@ -310,6 +343,6 @@
   }
  ],
  "last_summary_day": "2026-11-24",
- "day": "2026-11-27",
+ "day": "2026-11-28",
  "added": 6501.020818630904
 }
