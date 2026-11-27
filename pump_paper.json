@@ -1,5 +1,5 @@
 {
- "cash": 2640.372125262321,
+ "cash": 1840.3721252623209,
  "open": {
   "3WsqUNArNSh5pYt6eTKbQ7uUJDgkPtFEA2XFvdEWpump": {
    "name": "ZERO",
@@ -13,6 +13,22 @@
    "name": "WINTER",
    "entry": 9.121e-05,
    "t0": 1795817558.8405318,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  },
+  "Xb6V46U9hHHxiJnoAFxiEqEh59owzdt1ZL9q5zpVSoL": {
+   "name": "Sol",
+   "entry": 0.0001011,
+   "t0": 1795819957.5176332,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  },
+  "5TkyHpVZCnuW6w21q6mvFQ2Fgyvq3KySHJqfuki9pump": {
+   "name": "Hyperball",
+   "entry": 0.0001132,
+   "t0": 1795820437.538563,
    "rs_left": 386.0,
    "half_sold": false,
    "realised": 0.0
