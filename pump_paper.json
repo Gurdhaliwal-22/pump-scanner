@@ -1,18 +1,10 @@
 {
- "cash": 2233.609423041896,
+ "cash": 2449.3797151424806,
  "open": {
   "9SMvQzDmGMpACAqET5PAmwUtHfBYdQ5a7SPLfQa4pump": {
    "name": "CI",
    "entry": 0.0002253,
    "t0": 1795817557.683268,
-   "rs_left": 386.0,
-   "half_sold": false,
-   "realised": 0.0
-  },
-  "GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": {
-   "name": "MoonBoy",
-   "entry": 0.0003937,
-   "t0": 1795817558.0788577,
    "rs_left": 386.0,
    "half_sold": false,
    "realised": 0.0
@@ -340,6 +332,13 @@
    "pnl": -400.8,
    "held_h": 0.1,
    "day": "2026-11-27"
+  },
+  {
+   "mint": "GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump",
+   "name": "MoonBoy",
+   "pnl": -184.2,
+   "held_h": 0.4,
+   "day": "2026-11-28"
   }
  ],
  "last_summary_day": "2026-11-24",
