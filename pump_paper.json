@@ -1,14 +1,13 @@
 {
- "cash": 1123.774022050824,
+ "cash": 3760.2780105390293,
  "open": {
-  "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": {
-   "name": "PUMPCHAN",
-   "entry": 0.001114,
-   "t0": 1795661867.8077438,
-   "rs_left": 193.0,
-   "half_sold": true,
-   "realised": 1325.2602782764811,
-   "entry_after_half": 0.007785
+  "cg3HaDWhAKFfj9aq79TWUBgmxfs4G7byQ7feaxnpump": {
+   "name": "Dragon",
+   "entry": 5.251e-05,
+   "t0": 1795750933.5223897,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
   }
  },
  "closed": [
@@ -288,6 +287,20 @@
    "name": "Goon",
    "pnl": -209.0,
    "held_h": 0.0,
+   "day": "2026-11-27"
+  },
+  {
+   "mint": "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump",
+   "name": "PUMPCHAN",
+   "pnl": 2826.0,
+   "held_h": 24.7,
+   "day": "2026-11-27"
+  },
+  {
+   "mint": "ACzDUEXiDMWS6K3jxMcEKQJzJpHPjenw38hiFBihpump",
+   "name": "Scat",
+   "pnl": -189.5,
+   "held_h": 0.1,
    "day": "2026-11-27"
   }
  ],
