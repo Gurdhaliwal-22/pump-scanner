@@ -1,10 +1,18 @@
 {
- "cash": 1855.752981877279,
+ "cash": 1455.752981877279,
  "open": {
   "7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump": {
    "name": "WINTER",
    "entry": 9.121e-05,
    "t0": 1795817558.8405318,
+   "rs_left": 386.0,
+   "half_sold": false,
+   "realised": 0.0
+  },
+  "GGatn9GfrvRgFMFZy9ZSaTsKmpwnzCTogmocLHCjpump": {
+   "name": "Frogger",
+   "entry": 6.76e-05,
+   "t0": 1795840174.6955724,
    "rs_left": 386.0,
    "half_sold": false,
    "realised": 0.0
